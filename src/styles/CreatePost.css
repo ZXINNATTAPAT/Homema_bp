@@ -1,0 +1,105 @@
+.create-post-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  & .create-post-content {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    & .create-post-top {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      & .post-top-item {
+        font-size: 20px;
+      }
+    }
+
+    & .create-post-mid input {
+      width: 100%;
+      margin-bottom: 5px;
+      border-radius: 10px;
+    }
+    & .create-post-mid textarea {
+      margin-bottom: 5px;
+      border-radius: 10px;
+      width: 100%;
+      height: 300px;
+    }
+    & .create-post-mid {
+      margin-top: 20px;
+      background-color: whitesmoke;
+    }
+    & .create-post-bottom {
+      display: flex;
+
+      justify-content: space-between;
+      margin-top: 15px;
+      & {
+        .post-option {
+          gap: 10px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .create-post-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    & .create-post-content {
+      display: flex;
+      width: 400px;
+      justify-content: center;
+      flex-direction: column;
+      background-color: whitesmoke;
+      & .create-post-top {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        & .post-top-item {
+          font-size: 20px;
+        }
+      }
+
+      & .create-post-mid input {
+        width: 100%;
+        margin-bottom: 5px;
+        border-radius: 10px;
+      }
+      & .create-post-mid textarea {
+        margin-bottom: 5px;
+        border-radius: 10px;
+        width: 100%;
+        height: 300px;
+      }
+      & .create-post-mid {
+        margin-top: 20px;
+        background-color: whitesmoke;
+      }
+      & .create-post-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        & {
+          .post-option {
+            gap: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}
