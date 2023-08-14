@@ -18,7 +18,7 @@
       text-align: center;
     }
     & .post-content:hover {
-      background-color: honeydew;
+      background-color: whitesmoke;
     }
   }
 }
@@ -42,8 +42,14 @@
         text-align: center;
       }
       & .post-content:hover {
-        background-color: honeydew;
+        background-color: whitesmoke;
       }
     }
   }
+}
+
+.text-content{
+  color: black;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-family: 'Noto Sans Thai Looped', sans-serif;
 }
