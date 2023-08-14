@@ -1,23 +1,28 @@
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Mainpages from './mainpage/Mainpages';
 
-function App() {
+
+
+
+const About = () => <div>About Page</div>;
+
+export default function App(){
   return (
-    <div className="App">
-      <div class="container">
-          <section classsname ="">
-            <figure class="text-center">
-              <blockquote class="blockquote">
-                <p>A well-known quote, contained in a blockquote element.</p>
-              </blockquote>
-              <figcaption class="blockquote-footer">
-                Someone famous in <cite title="Source Title">Source Title</cite>
-              </figcaption>
-            </figure>
-          </section>
+    <Router>
+      <div className="app-container">
+        <Navbar />
+        <div className="content-container">
+          <Routes>
+            <Route path="/" element={<Mainpages />} />
+            <Route path="/about" element={<About />} />
+            {/* Add more routes */}
+          </Routes>
+        </div>
       </div>
-      
-    </div>
+    </Router>
   );
-}
+};
 
-export default App;
