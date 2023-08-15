@@ -1,20 +1,35 @@
 import React from "react";
-import "../App.css";
+import "../styles/Mainpages.css";
 
 export default function Mainpages() {
   return (
-    <div>
-      <div className="container">
-        <br></br>
-        <main>
-          <div></div>
-          <div className="container py-4">
-            <header className="pb-3 mb-4 border-bottom">
-              <h2>Yourspace</h2>
-            </header>
+    <> 
+      
+        <div class="jumbotron blockcode" >{/* header content */}
+        
+              <div class="container py-4">
 
-            {/* ###### Highlight block  ###### */}
-            <div className="card">
+                <h1 >YOURSPACE</h1>
+
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+              </div>
+
+              <div className="border-top border-bottom blockcode  border-secondary-subtle border-1" >
+                <div className="container">
+
+                  <span className="text-bc ">
+
+                  <i class="fa-solid fa-right-to-bracket" ></i> หน้าแรก</span>
+                </div>
+
+              </div>
+        </div>
+
+        <main>
+
+          <div className="container py-4">{/* content in main page by.NTP  */}
+           
+            <div className="card"> {/* ###### Highlight block  ###### */}
               <div className="card-header">เลือกห้อง</div>
 
               <div className="container-fluid ">
@@ -62,11 +77,8 @@ export default function Mainpages() {
             </div>
 
             <br />
-            <br />
-
-            {/* ######  block  ###### */}
-
-            <div className="card">
+           
+            <div className="card"> {/* ######  block  ###### */}
               <div className="card-header">Highlight</div>
 
               <div
@@ -82,18 +94,21 @@ export default function Mainpages() {
                     aria-current="true"
                     aria-label="Slide 1"
                   ></button>
+
                   <button
                     type="button"
                     data-bs-target="#carouselExampleDark"
                     data-bs-slide-to="1"
                     aria-label="Slide 2"
                   ></button>
+
                   <button
                     type="button"
                     data-bs-target="#carouselExampleDark"
                     data-bs-slide-to="2"
                     aria-label="Slide 3"
                   ></button>
+
                 </div>
 
                 <div className="carousel-inner">
@@ -363,13 +378,12 @@ export default function Mainpages() {
                   ></span>
                   <span className="visually-hidden">Next</span>
                 </button>
+
               </div>
             </div>
 
-            <br />
-
-            <br></br>
-            <div className="p-4 mb-4 bg-div-tertiary rounded-3">
+            
+            <div className="p-4 mb-4 bg-div-tertiary rounded-3">{/* main board */}
               <div className="container-fluid py-5">
                 <h1 className="display-5 fw-bold">Custom jumbotron</h1>
                 <p className="col-md-8 fs-4">
@@ -383,6 +397,7 @@ export default function Mainpages() {
                 </button>
               </div>
             </div>
+
 
             <div className="row align-items-md-stretch">
               <div className="col-md-6">
@@ -414,14 +429,17 @@ export default function Mainpages() {
               </div>
             </div>
 
+            {/* ????coming soon */}
+
             <br></br>
 
             <footer className="pt-3 mt-4 text-div-secondary border-top">
               © 2023
             </footer>
           </div>
+
         </main>
-      </div>
-    </div>
+       
+    </>
   );
 }

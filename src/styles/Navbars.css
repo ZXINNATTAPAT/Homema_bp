@@ -1,0 +1,16 @@
+/* styles.css */
+.navbar-nav .nav-item  a {
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-item  a:hover {
+    color: lightgray;/* Change this to the color you want on hover */
+    
+  }
+  .text-content{
+    color: black;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Noto Sans Thai Looped', sans-serif;
+  }
+  
