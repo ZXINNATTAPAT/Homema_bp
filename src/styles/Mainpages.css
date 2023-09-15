@@ -1,6 +1,17 @@
-
+.pts{
+    padding-top: 25vh;
+}
+.card-pages{
+    box-sizing: border-box;
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .blockcode{
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+   background-image: url('../Photo/backgroundset.jpg');
+   background-size: cover;    
 }
 .sizebg{
     background-size: cover;
@@ -12,4 +23,5 @@
     color: black;
     font-family: 'Noto Sans Thai', sans-serif;
     font-family: 'Noto Sans Thai Looped', sans-serif;
-  }
+    
+}

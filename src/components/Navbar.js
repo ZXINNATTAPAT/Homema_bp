@@ -5,9 +5,9 @@ import '../styles/Navbars.css'
 export default function Navbar() {
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark text-content">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary   text-content">
 
-      <div className="container-fluid">
+      <div className="container">
 
         <button
           className="navbar-toggler"
@@ -21,8 +21,8 @@ export default function Navbar() {
           <i class="fa-solid fa-bars" style={{color:"white"}}></i>
         </button>
 
-          <a className="navbar-brand text-white" href="/About">
-            YOURSPACE
+          <a className="navbar-brand " href="/About" style={{color:"green"}}>
+             HOMEMA
           </a>
 
          <div className="collapse navbar-collapse " id="navbarTogglerDemo03">
@@ -37,13 +37,13 @@ export default function Navbar() {
               
                 </li> 
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
 
                   <a className="nav-link " href="/forum">
                     ตั้งกระทู้
                   </a>
                   
-                </li> 
+                </li>  */}
 
                 <li className="nav-item">
 

@@ -1,6 +1,7 @@
 import React from "react";
 
 import "../styles/CreatePost.css";
+
 const CreatePost = () => {
   return (
     <div className="container">
@@ -31,7 +32,7 @@ const CreatePost = () => {
                       Room
                     </button>
 
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    {/* <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                       <li>
                         <a class="dropdown-item" href="#">
                           Action
@@ -47,7 +48,7 @@ const CreatePost = () => {
                           Something else here
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                 </div>
 
                   

@@ -5,62 +5,80 @@ export default function Mainpages() {
   return (
     <> 
       
-        <header class="jumbotron blockcode text-content" style={{ height: "85vh"}}>
+    
+        <header class="jumbotron blockcode" >{/* header content */}
+        
+              <div class="container py-4">
 
-            <main className="container pts">
-                  <div className="card card-pages">
+                <h1 >YOURSPACE</h1>
 
-                        <div className="card-body">
-                            <br />
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+              </div>
 
-                          <div className="row">
-                            <div className="col" style={{paddingLeft:"25px"}}>
-                              <h1 className="card-title">บริการช่างมืออาชีพจาก HOMEMA 
-                              <br/> ผลงานดี สะดวก ไร้ปัญหาการทิ้งงาน</h1>
+              <div className="border-top border-bottom blockcode  border-secondary-subtle border-1" >
+                <div className="container">
 
-                              <p className="card-text" >
-                              ช่างมืออาชีพ ไม่มีประวัติอาชญากรรม
-                              งานเสร็จตรงเวลา
-                              ยืนยันด้วยรีวิวจากลูกค้าจริง
-                              </p>
+                  <span className="text-bc ">
 
-                            </div>
-                            <div className="col"> 
-                              <center>
-                                <button className="btn btn-success btn-lg" style={{height:"200px", width:"350px"}}>
-                                <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
-                                <br />
-                                <br />
-                                  <h1>จ้างช่าง</h1>
-                                </button>
-                              </center>
-                            </div>
-                            
-                          </div>
-                              
-
-                            {/* อาจต้องแก้การจัดหน้าในมือถือ */}
-                          
-                            <br />
-
-                        </div>
-                </div>    
-
-              </main>
-            
-              
-        </header>
-
-          <main className="container py-4 text-content">{/* content in main page by.NTP  */}
-           
-            <br />
-           
-       {/* ######  block  ###### */}
-              <div style={{textAlign:"center"}}> 
-
-                <h1>บริการแนะนำ</h1> 
+                  <i class="fa-solid fa-right-to-bracket" ></i> หน้าแรก</span>
+                </div>
 
               </div>
+        </header>
+
+          <main className="container py-4">{/* content in main page by.NTP  */}
+           
+            <div className="card"> {/* ###### Highlight block  ###### */}
+              <div className="card-header">เลือกห้อง</div>
+
+              <div className="container-fluid ">
+                <div className="card-body">
+                  <div className="hstack gap-3">
+                    <center>
+                      <button className="btn btn-secondary m-4 p-4">
+                        <i className="fa-solid fa-house"></i> <br />
+                        Gadget
+                      </button>
+
+                      <button className="btn btn-secondary m-4 p-4">
+                        <i className="fa-solid fa-house"></i> <br />
+                        Gadget
+                      </button>
+
+                      <button className="btn btn-secondary m-4 p-4">
+                        <i className="fa-solid fa-house"></i> <br />
+                        Gadget
+                      </button>
+
+                      <button className="btn btn-secondary m-4 p-4">
+                        <i className="fa-solid fa-house"></i> <br />
+                        Gadget
+                      </button>
+
+                      <button className="btn btn-secondary m-4 p-4">
+                        <i className="fa-solid fa-house"></i> <br />
+                        Gadget
+                      </button>
+
+                      <button className="btn btn-secondary m-4 p-4">
+                        <i className="fa-solid fa-house"></i> <br />
+                        Gadget
+                      </button>
+
+                      <button className="btn btn-secondary m-4 p-4">
+                        <i className="fa-solid fa-house"></i> <br />
+                        Gadget
+                      </button>
+                    </center>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <br />
+           
+            <div className="card"> {/* ######  block  ###### */}
+              <div className="card-header">Highlight</div>
 
               <div
                 id="carouselExampleDark"
@@ -361,56 +379,54 @@ export default function Mainpages() {
                 </button>
 
               </div>
-           
+            </div>
 
-           
-                <div className="p-4 mb-4 bg-div-tertiary rounded-3">{/* main board */}
-                  <div className="container-fluid py-5">
-                    <h1 className="display-5 fw-bold">Custom jumbotron</h1>
-                    <p className="col-md-8 fs-4">
-                      Using a series of utilities, you can create this jumbotron,
-                      just like the one in previous versions of Bootstrap. Check out
-                      the examples below for how you can remix and restyle it to
-                      your liking.
-                    </p>
-                    <button className="btn btn-secondary btn-lg" type="button">
-                      Example button
-                    </button>
-                    </div>
-                  </div>
+            
+            <div className="p-4 mb-4 bg-div-tertiary rounded-3">{/* main board */}
+              <div className="container-fluid py-5">
+                <h1 className="display-5 fw-bold">Custom jumbotron</h1>
+                <p className="col-md-8 fs-4">
+                  Using a series of utilities, you can create this jumbotron,
+                  just like the one in previous versions of Bootstrap. Check out
+                  the examples below for how you can remix and restyle it to
+                  your liking.
+                </p>
+                <button className="btn btn-secondary btn-lg" type="button">
+                  Example button
+                </button>
+              </div>
+            </div>
 
 
-                  <div className="row align-items-md-stretch">
-                    <div className="col-md-6">
-                      <div className="h-100 p-4 text-bg-dark rounded-3">
-                        <h2>Change the background</h2>
-                        <p>
-                          Swap the background-color utility and add a `.text-*` color
-                          utility to mix up the jumbotron look. Then, mix and match
-                          with additional component themes and more.
-                        </p>
-                        <button className="btn btn-outline-light" type="button">
-                          Example button
-                        </button>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="h-100 p-4 bg-div-tertiary border rounded-3">
-                        <h2>Add borders</h2>
-                        <p>
-                          Or, keep it light and add a border for some added definition
-                          to the boundaries of your content. Be sure to look under the
-                          hood at the source HTML here as we've adjusted the alignment
-                          and sizing of both column's content for equal-height.
-                        </p>
-                        <button className="btn btn-outline-secondary" type="button">
-                          Example button
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-       
-          
+            <div className="row align-items-md-stretch">
+              <div className="col-md-6">
+                <div className="h-100 p-4 text-bg-dark rounded-3">
+                  <h2>Change the background</h2>
+                  <p>
+                    Swap the background-color utility and add a `.text-*` color
+                    utility to mix up the jumbotron look. Then, mix and match
+                    with additional component themes and more.
+                  </p>
+                  <button className="btn btn-outline-light" type="button">
+                    Example button
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="h-100 p-4 bg-div-tertiary border rounded-3">
+                  <h2>Add borders</h2>
+                  <p>
+                    Or, keep it light and add a border for some added definition
+                    to the boundaries of your content. Be sure to look under the
+                    hood at the source HTML here as we've adjusted the alignment
+                    and sizing of both column's content for equal-height.
+                  </p>
+                  <button className="btn btn-outline-secondary" type="button">
+                    Example button
+                  </button>
+                </div>
+              </div>
+            </div>
 
             {/* ????coming soon */}
             <br></br>
