@@ -8,13 +8,16 @@ export default function Mainpages() {
         <header class="jumbotron blockcode text-content" style={{ height: "85vh"}}>
 
             <main className="container pts">
-                  <div className="card card-pages">
 
-                        <div className="card-body">
-                            <br />
+                  <section className="card card-pages">
 
-                          <div className="row">
-                            <div className="col" style={{paddingLeft:"25px"}}>
+                      <section className="card-body"><br />
+
+                          <section className="row">
+
+                         
+                                <article className="col" style={{paddingLeft:"25px"}}>
+
                               <h1 className="card-title">บริการช่างมืออาชีพจาก HOMEMA 
                               <br/> ผลงานดี สะดวก ไร้ปัญหาการทิ้งงาน</h1>
 
@@ -24,8 +27,9 @@ export default function Mainpages() {
                               ยืนยันด้วยรีวิวจากลูกค้าจริง
                               </p>
 
-                            </div>
-                            <div className="col"> 
+                            </article>
+
+                            <article className="col"> 
                               <center>
                                 <button className="btn btn-success btn-lg" style={{height:"200px", width:"350px"}}>
                                 <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
@@ -34,17 +38,17 @@ export default function Mainpages() {
                                   <h1>จ้างช่าง</h1>
                                 </button>
                               </center>
-                            </div>
-                            
-                          </div>
-                              
+                            </article>
+                    
 
-                            {/* อาจต้องแก้การจัดหน้าในมือถือ */}
                           
+                            
+                          </section>
+                              
                             <br />
 
-                        </div>
-                </div>    
+                      </section>
+                </section>    
 
               </main>
             
