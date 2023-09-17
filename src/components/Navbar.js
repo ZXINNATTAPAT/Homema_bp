@@ -18,7 +18,7 @@ export default function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <i class="fa-solid fa-bars" style={{color:"white"}}></i>
+          <i class="fa-solid fa-bars" style={{color:"black"}}></i>
         </button>
 
           <a className="navbar-brand " href="/About" style={{color:"green"}}>
@@ -42,31 +42,18 @@ export default function Navbar() {
                   <a className="nav-link " href="/forum">
                     ตั้งกระทู้
                   </a>
-                  
                 </li>  */}
-
                 <li className="nav-item">
-
-                  <a className="nav-link " href="/About">
+                  {/* <a className="nav-link " href="/About">
                     เข้าสู่ระบบ / สมัครสมาชิก 
-                  </a>
-                  
+                  </a> */}
+
                 </li> 
               </ul>
 
-                <form className="d-flex" role="search">
-                  <input
-                    className="form-control me-2"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-
-                  <button className="btn btn-outline-success" type="submit">
-                    Search
-                  </button>
-
-                </form>
+              <button className="btn btn-success">
+                      เข้าสู่ระบบ / สมัครสมาชิก 
+              </button>
 
         </div>
       </div>

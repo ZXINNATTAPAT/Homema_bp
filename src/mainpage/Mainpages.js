@@ -4,45 +4,46 @@ import "../styles/Mainpages.css";
 export default function Mainpages() {
   return (
     <> 
-      
-        <header class="jumbotron blockcode text-content" style={{ height: "85vh"}}>
+        <header className="jumbotron bgs text-content" style={{ height: "80vh"}}>
 
-            <main className="container pts">
+            <section className="container pts">
 
-                  <section className="card card-pages">
+                <section className="card card-pages">
 
-                      <section className="card-body"><br />
+                      <section className="card-body">
 
                           <section className="row">
 
-                         
-                                <article className="col" style={{paddingLeft:"25px"}}>
+                              <article className="col " >
 
-                              <h1 className="card-title">บริการช่างมืออาชีพจาก HOMEMA 
-                              <br/> ผลงานดี สะดวก ไร้ปัญหาการทิ้งงาน</h1>
+                                <h1 className="card-title">บริการช่างมืออาชีพจาก HOMEMA 
+                                 ผลงานดี สะดวก ไร้ปัญหาการทิ้งงาน</h1>
 
-                              <p className="card-text" >
-                              ช่างมืออาชีพ ไม่มีประวัติอาชญากรรม
-                              งานเสร็จตรงเวลา
-                              ยืนยันด้วยรีวิวจากลูกค้าจริง
-                              </p>
+                                <div className=" text-p " >
+                                  <i class="fa-solid fa-check text-success" ></i> ช่างมืออาชีพ
+                                  <br/>
+                                  <i class="fa-solid fa-check text-success" ></i> ไม่มีประวัติอาชญากรรม
+                                  <br/>
+                                  <i class="fa-solid fa-check text-success" ></i> ยืนยันด้วยรีวิวจากลูกค้าจริง
+                                  <br/>
+                                </div>
 
-                            </article>
+                              </article>
 
-                            <article className="col"> 
-                              <center>
-                                <button className="btn btn-success btn-lg" style={{height:"200px", width:"350px"}}>
-                                <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
-                                <br />
-                                <br />
-                                  <h1>จ้างช่าง</h1>
-                                </button>
-                              </center>
-                            </article>
-                    
+                                <article className="col" >
+                                  <center>
+                                    <br />
+                                     <button className="btn btn-success btnsize" >
+                                    <br />
+                                      <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+                                    <br />
+                                    <br />
+                                      <h2 className="card-title">จ้างช่าง</h2>
+                                  </button>
+                                  </center>
+                                  
+                                </article>
 
-                          
-                            
                           </section>
                               
                             <br />
@@ -50,375 +51,259 @@ export default function Mainpages() {
                       </section>
                 </section>    
 
-              </main>
+            </section>
             
-              
         </header>
 
-          <main className="container py-4 text-content">{/* content in main page by.NTP  */}
-           
-            <br />
-           
-       {/* ######  block  ###### */}
-              <div style={{textAlign:"center"}}> 
+          <main className="container  text-content">
+          {/* content in main page by.NTP  */}
+          <br />
 
+           <section>
+
+              <header style={{textAlign:"center"}}> 
                 <h1>บริการแนะนำ</h1> 
+              </header>
 
-              </div>
+              <br />
 
-              <div
-                id="carouselExampleDark"
-                className="carousel carousel-dark slide card-body"
-              >
-                <div className="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleDark"
-                    data-bs-slide-to="0"
-                    className="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
+              <center>
+                {/* block2 : บริการแนะนำ  */}
+                <section className="card cardpage2">
 
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleDark"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
+                <section className="card-body">
+                  
+                  <section className="row">
+                    <section className="col">
+                      <center>
+                        <img className="bgs-r1 rounded-circle" src={require("../Photo/img2.jpg")} alt="..." />
+                        <section>
+                          <p>sdas</p>
+                        </section>
+                      </center>
+                    </section>
+                    
+                    <section className="col">
+                      <center>
+                        <img className="bgs-r1 rounded-circle" src={require("../Photo/img2.jpg")} alt="..." />
+                        <section>
+                          <p>sdas</p>
+                        </section>
+                      </center>
+                    </section>
 
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleDark"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
+                    <section className="col">
+                      <center>
+                        <img className="bgs-r1 rounded-circle" src={require("../Photo/img2.jpg")} alt="..." />
+                        <section>
+                          <p>sdas</p>
+                        </section>
+                      </center>
+                    </section>
 
-                </div>
+                  
 
-                <div className="carousel-inner">
-                  {/* set 1 */}
+                  <br />
 
-                  <div
-                    className="carousel-item active"
-                    data-bs-interval="10000"
-                  >
-                    <div className="row">
-                      <div className="col-md-3">
-                        <div className="card mb-4">
-                          <div className="card-div">
-                            <img
-                              src={require("../Photo/img2.jpg")}
-                              className="card-img-top"
-                              alt="sdas"
-                            ></img>
-                            <div className="card-body">
-                              <p className="card-text">
-                                With supporting text below as a natural lead-in
-                                to additional content.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                
+                
+                    <section className="col">
+                      <center>
+                        <img className="bgs-r1 rounded-circle" src={require("../Photo/img2.jpg")} alt="..." />
+                        <section>
+                          <p>sdas</p>
+                        </section>
+                      </center>
+                    </section>
 
-                      <div className="col-md-3">
-                        <div className="card mb-4">
-                          <div className="card-div">
-                            <img
-                              src={require("../Photo/img2.jpg")}
-                              className="card-img-top"
-                              alt="sdas"
-                            ></img>
-                            <div className="card-body">
-                              <p className="card-text">
-                                With supporting text below as a natural lead-in
-                                to additional content.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                    <section className="col">
+                      <center>
+                        <img className="bgs-r1 rounded-circle" src={require("../Photo/img2.jpg")} alt="..." />
+                        <section>
+                          <p>sdas</p>
+                        </section>
+                      </center>
+                    </section>
 
-                      <div className="col-md-3">
-                        <div className="card mb-4">
-                          <div className="card-div">
-                            <img
-                              src={require("../Photo/img2.jpg")}
-                              className="card-img-top"
-                              alt="sdas"
-                            ></img>
-                            <div className="card-body">
-                              <p className="card-text">
-                                With supporting text below as a natural lead-in
-                                to additional content.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                    <section className="col">
+                      <center>
+                        <img className="bgs-r1 rounded-circle" src={require("../Photo/img2.jpg")} alt="..." />
+                        <section>
+                          <p>sdas</p>
+                        </section>
+                      </center>
+                    </section>
 
-                      <div className="col-md-3">
-                        <div className="card mb-4">
-                          <div className="card-div">
-                            <img
-                              src={require("../Photo/img2.jpg")}
-                              className="card-img-top"
-                              alt="sdas"
-                            ></img>
-                            <div className="card-body">
-                              <p className="card-text">
-                                With supporting text below as a natural lead-in
-                                to additional content.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      {/* ... more cards */}
-                    </div>
-                  </div>
+                </section>
 
-                  {/* set 2 */}
+                </section>
 
-                  <div className="carousel-item" data-bs-interval="2000">
-                    <div className="row">
-                      <div className="col-md-3">
-                        <div className="card mb-4">
-                          <div className="card-div">
-                            <img
-                              src={require("../Photo/img2.jpg")}
-                              className="card-img-top"
-                              alt="sdas"
-                            ></img>
-                            <div className="card-body">
-                              <p className="card-text">
-                                With supporting text below as a natural lead-in
-                                to additional content.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                </section>
+              </center>
+           </section>
 
-                      <div className="col-md-3">
-                        <div className="card mb-4">
-                          <div className="card-div">
-                            <img
-                              src={require("../Photo/img2.jpg")}
-                              className="card-img-top"
-                              alt="sdas"
-                            ></img>
-                            <div className="card-body">
-                              <p className="card-text">
-                                With supporting text below as a natural lead-in
-                                to additional content.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+            <br />
 
-                      <div className="col-md-3">
-                        <div className="card mb-4">
-                          <div className="card-div">
-                            <img
-                              src={require("../Photo/img2.jpg")}
-                              className="card-img-top"
-                              alt="sdas"
-                            ></img>
-                            <div className="card-body">
-                              <p className="card-text">
-                                With supporting text below as a natural lead-in
-                                to additional content.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="col-md-3">
-                        <div className="card mb-4">
-                          <div className="card-div">
-                            <img
-                              src={require("../Photo/img2.jpg")}
-                              className="card-img-top"
-                              alt="sdas"
-                            ></img>
-                            <div className="card-body">
-                              <p className="card-text">
-                                With supporting text below as a natural lead-in
-                                to additional content.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      {/* ... more cards */}
-                    </div>
-                  </div>
-
-                  {/* set 3 */}
-
-                  <div className="carousel-item">
-                    <div className="row">
-                      <div className="col-md-3">
-                        <div className="card mb-4">
-                          <div className="card-div">
-                            <img
-                              src={require("../Photo/img2.jpg")}
-                              className="card-img-top"
-                              alt="sdas"
-                            ></img>
-                            <div className="card-body">
-                              <p className="card-text">
-                                With supporting text below as a natural lead-in
-                                to additional content.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="col-md-3">
-                        <div className="card mb-4">
-                          <div className="card-div">
-                            <img
-                              src={require("../Photo/img2.jpg")}
-                              className="card-img-top"
-                              alt="sdas"
-                            ></img>
-                            <div className="card-body">
-                              <p className="card-text">
-                                With supporting text below as a natural lead-in
-                                to additional content.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="col-md-3">
-                        <div className="card mb-4">
-                          <div className="card-div">
-                            <img
-                              src={require("../Photo/img2.jpg")}
-                              className="card-img-top"
-                              alt="sdas"
-                            ></img>
-                            <div className="card-body">
-                              <p className="card-text">
-                                With supporting text below as a natural lead-in
-                                to additional content.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="col-md-3">
-                        <div className="card mb-4">
-                          <div className="card-div">
-                            <img
-                              src={require("../Photo/img2.jpg")}
-                              className="card-img-top"
-                              alt="sdas"
-                            ></img>
-                            <div className="card-body">
-                              <p className="card-text">
-                                With supporting text below as a natural lead-in
-                                to additional content.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      {/* ... more cards */}
-                    </div>
-                  </div>
-                </div>
-
-                <button
-                  className="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleDark"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    className="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span className="visually-hidden">Previous</span>
-                </button>
-
-                <button
-                  className="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleDark"
-                  data-bs-slide="next"
-                >
-                  <span
-                    className="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span className="visually-hidden">Next</span>
-                </button>
-
-              </div>
-           
-
-           
-                <div className="p-4 mb-4 bg-div-tertiary rounded-3">{/* main board */}
-                  <div className="container-fluid py-5">
-                    <h1 className="display-5 fw-bold">Custom jumbotron</h1>
-                    <p className="col-md-8 fs-4">
-                      Using a series of utilities, you can create this jumbotron,
-                      just like the one in previous versions of Bootstrap. Check out
-                      the examples below for how you can remix and restyle it to
-                      your liking.
-                    </p>
-                    <button className="btn btn-secondary btn-lg" type="button">
-                      Example button
-                    </button>
-                    </div>
-                  </div>
-
-
-                  <div className="row align-items-md-stretch">
-                    <div className="col-md-6">
-                      <div className="h-100 p-4 text-bg-dark rounded-3">
-                        <h2>Change the background</h2>
-                        <p>
-                          Swap the background-color utility and add a `.text-*` color
-                          utility to mix up the jumbotron look. Then, mix and match
-                          with additional component themes and more.
-                        </p>
-                        <button className="btn btn-outline-light" type="button">
-                          Example button
-                        </button>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="h-100 p-4 bg-div-tertiary border rounded-3">
-                        <h2>Add borders</h2>
-                        <p>
-                          Or, keep it light and add a border for some added definition
-                          to the boundaries of your content. Be sure to look under the
-                          hood at the source HTML here as we've adjusted the alignment
-                          and sizing of both column's content for equal-height.
-                        </p>
-                        <button className="btn btn-outline-secondary" type="button">
-                          Example button
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-       
-          
-
-            {/* ????coming soon */}
-            <br></br>
           </main>
+
+          <br />
+
+          <main>
+            {/* block3 : */}
+            <section className="container-fluid bgs2 text-content"  >
+                  <section className="container">
+                    <br / >
+                    <br / >
+
+                    <article className="row align-items-md-stretch">
+                            <div className="col-md-5">
+                              <div className="h-100 p-4 text-bg-dark ">
+                                <h2>4 ขั้นตอนง่ายๆ ใช้บริการช่างผ่าน <h2 className="text-success">HOMEMA</h2></h2>
+                                <br />
+
+                                <h3>1. เลือกบริการ</h3>
+                                  <p>เลือกใช้บริการงานช่างที่ต้องการได้</p>
+
+                                <h3>2. เลือกช่างมืออาชีพ</h3>
+                                  <p>เราคัดสรรช่างที่มีประสบการณ์มากกว่า 5 ปีพร้อมรีวิวจากลูกค้าจริง เพื่อให้คุณมั่นใจได้สูงสุด</p>
+
+                                <h3>3. ปรึกษาและนัดหมาย</h3>
+                                  <p>พูดคุยรายละเอียดงาน ค่าบริการ และนัดหมายกับช่างได้โดยตรง</p>
+                                  
+                                <h3>4. ชำระเงินผ่าน HOMEMA</h3>
+                                  <p>ปลอดภัยและวางใจได้ว่างานเสร็จ 100% หากพบปัญหา เราพร้อมช่วยเหลือคุณเสมอ</p>
+                              </div>
+                            </div>
+                            <div className="col-md-7">
+                              <center>
+                                <br/>
+                                <br/>
+                                <div className=" card banner">
+                                </div>
+
+                              </center>
+                              
+                            </div>
+                            
+                    </article>
+                        <br/>
+
+                     
+                  </section>
+            </section>
+
+            <br />
+            {/* block4 :  */}
+            <section className="container-fluid"  >
+                  <section className="container">
+
+                    <article className="p-4 mb-4 bg-div-tertiary rounded-3">
+                          <div className="container-fluid py-5">
+                            <h1 className="display-5 fw-bold">Custom jumbotron</h1>
+                            <p className="col-md-8 fs-4">
+                              Using a series of utilities, you can create this jumbotron,
+                              just like the one in previous versions of Bootstrap. Check out
+                              the examples below for how you can remix and restyle it to
+                              your liking.
+                            </p>
+                            <button className="btn btn-secondary btn-lg" type="button">
+                              Example button
+                            </button>
+                            </div>
+                    </article>
+
+                    <article className="row align-items-md-stretch">
+                            <div className="col-md-6">
+                              <div className="h-100 p-4 text-bg-dark rounded-3">
+                                <h2>Change the background</h2>
+                                <p>
+                                  Swap the background-color utility and add a `.text-*` color
+                                  utility to mix up the jumbotron look. Then, mix and match
+                                  with additional component themes and more.
+                                </p>
+                                <button className="btn btn-outline-light" type="button">
+                                  Example button
+                                </button>
+                              </div>
+                            </div>
+                            <div className="col-md-6">
+                              <div className="h-100 p-4 bg-div-tertiary border rounded-3">
+                                <h2>Add borders</h2>
+                                <p>
+                                  Or, keep it light and add a border for some added definition
+                                  to the boundaries of your content. Be sure to look under the
+                                  hood at the source HTML here as we've adjusted the alignment
+                                  and sizing of both column's content for equal-height.
+                                </p>
+                                <button className="btn btn-outline-secondary" type="button">
+                                  Example button
+                                </button>
+                              </div>
+                            </div>
+                    </article>
+
+                    <br/>
+
+                  </section>
+            </section>
+
+            <br />
+            {/* block5 :  */}
+            <section className="container-fluid bgs3"  >
+                  <section className="container">
+
+                    <article className="p-4 mb-4 bg-div-tertiary rounded-3">
+                          <div className="container-fluid py-5">
+                            <h1 className="display-5 fw-bold">Custom jumbotron</h1>
+                            <p className="col-md-8 fs-4">
+                              Using a series of utilities, you can create this jumbotron,
+                              just like the one in previous versions of Bootstrap. Check out
+                              the examples below for how you can remix and restyle it to
+                              your liking.
+                            </p>
+                            <button className="btn btn-secondary btn-lg" type="button">
+                              Example button
+                            </button>
+                            </div>
+                    </article>
+
+                    <article className="row align-items-md-stretch">
+                            <div className="col-md-6">
+                              <div className="h-100 p-4 text-bg-dark rounded-3">
+                                <h2>Change the background</h2>
+                                <p>
+                                  Swap the background-color utility and add a `.text-*` color
+                                  utility to mix up the jumbotron look. Then, mix and match
+                                  with additional component themes and more.
+                                </p>
+                                <button className="btn btn-outline-light" type="button">
+                                  Example button
+                                </button>
+                              </div>
+                            </div>
+                            <div className="col-md-6">
+                              <div className="h-100 p-4 bg-div-tertiary border rounded-3">
+                                <h2>Add borders</h2>
+                                <p>
+                                  Or, keep it light and add a border for some added definition
+                                  to the boundaries of your content. Be sure to look under the
+                                  hood at the source HTML here as we've adjusted the alignment
+                                  and sizing of both column's content for equal-height.
+                                </p>
+                                <button className="btn btn-outline-secondary" type="button">
+                                  Example button
+                                </button>
+                              </div>
+                            </div>
+                    </article>
+
+                    <br/>
+
+                  </section>
+            </section>
+
+          </main>
+          
 
             <footer className="pt-3 mt-4 text-div-secondary border-top">
               © 2023
