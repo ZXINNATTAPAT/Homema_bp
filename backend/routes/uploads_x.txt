@@ -1,0 +1,51 @@
+// const express = require('express');
+// const fileUpload = require('express-fileupload');
+// const app = express();
+// const router = require('./users');
+
+// // // ใช้งาน express-fileupload middleware
+// // app.use(fileUpload());
+
+// // // เรียกใช้งานเมื่อมีการอัปโหลดไฟล์
+// // app.post('/upload', (req, res) => {
+// //   if (!req.files || Object.keys(req.files).length === 0) {
+// //     return res.status(400).send('ไม่พบไฟล์ที่อัปโหลด');
+// //   }
+
+// //   // อ่านไฟล์ที่อัปโหลด
+// //   const uploadedFile = req.files.sampleFile;
+
+// //   // ทำอะไรกับไฟล์ที่อัปโหลด (ตัวอย่าง: บันทึกไปยังโฟลเดอร์ uploads)
+// //   uploadedFile.mv('uploads/' + uploadedFile.name, (err) => {
+// //     if (err) {
+// //       return res.status(500).send(err);
+// //     }
+
+// //     res.send('ไฟล์ถูกอัปโหลดแล้ว');
+// //   });
+// // });
+
+// // // ... โค้ดส่วนอื่น ๆ ที่คุณมี
+
+// module.exports = router;
+
+//// เรียกใช้งานเมื่อมีการอัปโหลดไฟล์
+
+  // app.post('/upload', (req, res) => {
+  //   if (!req.files || Object.keys(req.files).length === 0) {
+  //     return res.status(400).send('ไม่พบไฟล์ที่อัปโหลด');
+  //   }
+
+  //   // อ่านไฟล์ที่อัปโหลด
+  //   const uploadedFile = req.files.sampleFile;
+
+  //   // ทำอะไรกับไฟล์ที่อัปโหลด (ตัวอย่าง: บันทึกไปยังโฟลเดอร์ uploads)
+  //   uploadedFile.mv('uploads/' + uploadedFile.name, (err) => {
+  //     if (err) {
+  //       return res.status(500).send(err);
+  //     }
+
+  //     res.send('ไฟล์ถูกอัปโหลดแล้ว');
+  //   });
+  // });
+

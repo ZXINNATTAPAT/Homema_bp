@@ -1,0 +1,56 @@
+.subproblem-container {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: inline-block;
+  text-align: left;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+}
+.form-btn {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.bottom {
+  display: inline-block;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .subproblem-container {
+    width: 90%;
+  }
+
+  .top,
+  .mid,
+  .bottom {
+    text-align: left;
+  }
+
+  .top label,
+  .mid label,
+  .bottom label {
+    display: block;
+    text-align: left;
+  }
+
+  .mid input[type="text"],
+  .bottom input[type="text"],
+  .mid textarea {
+    width: 100%;
+  }
+}

@@ -1,0 +1,23 @@
+.cardwidthscope{
+    width: 35%;
+    /* border: solid; */
+    /* display: flex; */
+  }
+.block{
+    width: 100%;
+    display: flex;
+}
+
+@media screen and (max-width:600px) {
+    .cardwidthscope{
+        width: 100%;
+        /* border: none; */
+      }
+}
+@media screen and (max-width:1080px) {
+    .cardwidthscope{
+        width: 100%;
+        /* border: none; */
+      }
+    
+ }

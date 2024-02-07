@@ -1,0 +1,86 @@
+.bkg{
+  background-color: white;
+}
+.request-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img.request-banner {
+  width: 625px;
+  height: 275px;
+}
+
+
+/* .request-btn {
+  margin-top: 36.5px;
+  width: 615px;
+  height: 75px;
+  color: black;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-family: "Noto Sans Thai Looped", sans-serif;
+} */
+.request-btn p {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-family: "Noto Sans Thai Looped", sans-serif;
+  color: white;
+}
+.card-container {
+  width: 625px;
+}
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+.card-body {
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-body .top p {
+  text-align: left;
+}
+.card-body .bottom p {
+  margin-top: 15px;
+  text-align: left;
+}
+.request-container > p {
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  img.request-banner {
+    width: 375px;
+    height: 150px;
+  }
+  .request-btn {
+    margin-top: 20px;
+    width: 375px;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+  }
+  .card {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .card img {
+    height: 125px;
+  }
+  .card-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .ts{
+    width: 100%;
+  }
+}
+p {
+  color: black;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-family: "Noto Sans Thai Looped", sans-serif;
+}

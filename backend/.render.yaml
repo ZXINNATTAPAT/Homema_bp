@@ -1,0 +1,3 @@
+builds:
+  - name: example
+    use: docker

@@ -1,0 +1,33 @@
+// const { cloudinary } = require("./utils/cloudinary");
+// const router = express.Router();
+// const express = require("express");
+// var cors = require("cors");
+
+// router.use(express.json({ limit: "50mb" }));
+// router.use(express.urlencoded({ limit: "50mb", extended: true }));
+// router.use(cors());
+
+// router.get("/api/images", async (req, res) => {
+//   const { resources } = await cloudinary.search
+//     .expression("folder:cloudinary_react")
+//     .sort_by("public_id", "desc")
+//     .max_results(30)
+//     .execute();
+
+//   const publicIds = resources.map((file) => file.public_id);
+//   res.send(publicIds);
+// });
+
+// router.post("/api/upload", async (req, res) => {
+//   try {
+//     const fileStr = req.body.data;
+//     const uploadResponse = await cloudinary.uploader.upload(fileStr, {
+//       upload_preset: "cloudinary_react",
+//     });
+//     console.log(uploadResponse);
+//     res.json({ msg: "File uploaded sucessfully" });
+//   } catch (err) {
+//     console.error(err);
+//     res.status(500).json({ err: "Something went wrong" });
+//   }
+// });

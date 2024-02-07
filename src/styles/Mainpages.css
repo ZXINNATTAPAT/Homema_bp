@@ -1,98 +1,130 @@
 .pts{
-    padding-top: 20vh;
+  padding-top: 10vh;
 }
 .card-pages{
-    box-sizing: border-box;
-    padding: 1.5%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-sizing: border-box;
+  background-color: white;
+  padding: 2.5%;
+  width: 450px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .cardpage2{
-    box-sizing: border-box;
-    width: auto; 
-    height: auto;
-    border: none;
-    overflow: visible;
+  box-sizing: border-box;
+  width: auto; 
+  height: auto;
+  border: none;
+  overflow: visible;
+}
+.bgs-head{
+    background-image: url('../Photo/background_new.jpg');
+    background-size:   cover;
+    display: none;
+    background: none;
+    padding: 10%;
 }
 .bgs{
-   background-image: url('../Photo/backgroundset.jpg');
-   background-size: cover; 
-
+ background-image: url('../Photo/background_new.jpg');
+ background-size: cover; 
+ height: 80vh;
 }
 .bgs2{
-    background-color: whitesmoke;
-    height: auto;
+  background-color: whitesmoke;
+  height: auto;
 }
 .bgs3{
-    background-color:  #dff1e1;
+  background-color:  #dff1e1;
 }
 .bgs-r1{
-    width: 125px;
-    height: 125px;
-    margin: 15px;
+  width: 125px;
+  height: 125px;
+  margin: 15px;
 }
 .banner{
-    width: 100%;
-    height: 450px;
-    background-image: url("../Photo/banner.jpg");
-    background-size:cover;
-    border: none;
+  width: 100%;
+  height: 450px;
+  background-image: url("../Photo/backgroundset.jpg");
+  background-size:cover;
+  border: none;
+}
+.banner-a{
+  width: 100%;
+  height: 450px;
+  background-image: url("../Photo/backgroundset.jpg");
+  background-size:cover;
+  border: none;
+
 }
 .bgs-r1:hover {
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-    
 .btnsize{
-   padding: 2.5%;
-   width: 75%;
+ padding: 2.5%;
+ width: 100%;
+ height: auto;
 }
 .text-bc{
-    bottom: 10px;
+  bottom: 10px;
 }
 .text-content{
-    color: black;
-    font-family: 'Noto Sans Thai', sans-serif;
-    font-family: 'Noto Sans Thai Looped', sans-serif;
+  color: black;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-family: 'Noto Sans Thai Looped', sans-serif;
 }
-
-
-  
 
 @media screen and (max-width:600px) {
-    /* .pts{
-        padding-top: 35px;
-    } */
-   
-    .card-pages{
-        height: max-content;
-        box-shadow: none;
-        background: none;
-        border: none;
-        color: white;
-    }
-    .btnsize{
-        width: 320px;
-    }
-    
+  /* .pts{
+      padding-top: 15vh;
+  } */
+  .bgs{
+    background: none;
+  }
+  .bgs-head{
+    background-image: url('../Photo/background_new.jpg');
+    background-size:   cover;
+    display: flex;
+    height: 35vh;
+  }
+  .card-pages{
+      display: flex;
+      box-shadow: none;
+      border: none;
+  }
+  .btnsize{
+      width: 100%;
+  }
+  
 }
-@media screen and (max-width:890px) {
-    /* .pts{
-        padding-top: 35px;
-    } */
-    /* .bgs{
-        background: none;
-    } */
-    .card-pages{
-        height: max-content;
-        width: fit-content;
-        box-shadow: none;
-        border: none;
-    }
-    /* .btnsize{
-        width: 300px;
-        height: 250px;
-
-    } */
-    
+@media screen and (max-width:1080px) {
+  .pts{
+      padding-top: 2.5vh;
+  }
+  /* .bgs-head{
+    background-image: url('../Photo/background_new.jpg');
+    background-size: cover;
+    background: fixed; 
+   } */
+  .bgs{
+    height: 45vh;
+    /* background: none; */
+  }
+  
+  .banner{
+    background-image: url("../Photo/backgroundset.jpg");
+    display: none;
+  }
+  .banner-a{
+    display: none;
+  }
+  .card-pages{
+      /* height: max-content;
+      width:100%; */
+      box-shadow: none;
+      border: none;
+  }
+  .btnsize{
+      width: 75%;
+  }
+  
 }

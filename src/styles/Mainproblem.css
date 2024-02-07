@@ -1,0 +1,55 @@
+.cardwidthscope{
+  width: 35%;
+  border: none;
+}
+.problem-text {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.problem-text2 {
+  float: left;
+}
+.problem-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.problem-header {
+  font-size: 30px;
+  text-align: center;
+}
+.problem-list {
+  display: flex;
+  flex-direction: column;
+}
+.logo{
+  background-image: url("../Photo/HOMEMA.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+}
+.text-content{
+  color: black;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-family: 'Noto Sans Thai Looped', sans-serif;
+}
+@media screen and (max-width:600px) {
+  .cardwidthscope{
+    width: 100%;
+
+  }
+}
+@media screen and (max-width:1080px) {
+  .cardwidthscope{
+    width: 100%;
+  }
+  
+  
+}

@@ -1,15 +1,29 @@
 /* styles.css */
-.navbar-nav .nav-item  a {
+  .navbar-nav .nav-item  a {
     color: black;
     transition: color 0.3s;
   }
-  
   .navbar-nav .nav-item  a:hover {
-    color: lightgray;/* Change this to the color you want on hover */
-    
+    color: grey;/* Change this to the color you want on hover */
   }
   .text-content{
     color: black;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Noto Sans Thai Looped', sans-serif;
+  }
+  /* .navbar{
+    height: 15.5vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  } */
+ .logos{
+    background-image: url("../Photo/HOMEMAlogo.png");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+  
+  
+  }
+  .logo-text{
+    font-family: 'Kenia', cursive;
     font-family: 'Noto Sans Thai', sans-serif;
     font-family: 'Noto Sans Thai Looped', sans-serif;
   }
