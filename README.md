@@ -1,5 +1,7 @@
 # Technician Hiring Web Application
 
+<img src="https://github.com/ZXINNATTAPAT/Homema_bp/blob/main/src/Photo/HOMEMA.png" />
+
 The Technician Hiring Web
 
 Application is a comprehensive platform designed to streamline the process of recruiting and managing technicians for various tasks and projects. It provides a user-friendly interface for both recruiters and technicians to connect, communicate, and collaborate effectively.
