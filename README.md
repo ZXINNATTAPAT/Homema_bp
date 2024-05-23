@@ -1,6 +1,6 @@
 # Technician Hiring Web Application
 
-<img src="https://github.com/ZXINNATTAPAT/Homema_bp/blob/main/src/Photo/HOMEMA.png" />
+<img src="https://github.com/ZXINNATTAPAT/ZXINNATTAPAT/blob/main/homema.png" />
 
 The Technician Hiring Web
 
